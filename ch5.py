@@ -110,3 +110,14 @@ for number in numbers :
         print(number + 'rd')
     if number > '3' :
         print(number + 'th')
+
+digits = range(1,21)
+for digit in digits :
+    if digit == 1 :
+        print(str(digit) + 'st')
+    if digit == 2 :
+        print(str(digit) + 'nd')
+    if digit == 3 :
+        print(str(digit) + 'rd')
+    elif digit > 3 :
+        print(str(digit) + 'th')
