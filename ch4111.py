@@ -33,8 +33,9 @@ for value in range(0,5):
     print(value)
 
 digits = list(range(1,1000001))
-min(digits)
-max(digits)
+print(min(digits))
+print(max(digits))
+print(sum(digits))
 
 odd = list(range(1,20,2))
 
