@@ -82,10 +82,8 @@ else :
 current_users = ['eden oferi', 'rkaito', 'admin', 'freakboy', 'seniordev', 'rachetstrap', 'thedeep303']
 
 new_user = input().lower()
-for user in current_users :
-    user.lower()
 
-if new_user in current_users :
+if new_user.lower() in [user.lower() for user in current_users]:
     print('Sorry, this username already exists')
 if new_user not in current_users :
     print('Welcome, ' + new_user.title() + '!')
